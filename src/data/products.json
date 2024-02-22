@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Harina",
+    "description": "Paquete de Harina de trigo 000 ultrarefinada",
+    "price": 890,
+    "thumbnail": "../db/assets/img1",
+    "code": 123765162745,
+    "stock": 89
+  },
+  {
+    "id": 2,
+    "title": "Azúcar moreno",
+    "description": "Azúcar tipo A",
+    "price": 1300,
+    "thumbnail": "../db/assets/img239",
+    "code": 986778312,
+    "stock": 67
+  },
+  {
+    "id": 3,
+    "title": "Yogurt",
+    "description": "Yogurt descremado sabor natural",
+    "price": 1900,
+    "thumbnail": "../db/assets/img123",
+    "code": 78234687,
+    "stock": 90
+  },
+  {
+    "id": 4,
+    "title": "Cafe",
+    "description": "Cafe Tostado molienda media-fina para Moka italiana o Melita",
+    "price": 8600,
+    "thumbnail": "./img/cafecolombia.jpg",
+    "code": 98465412134598,
+    "stock": 50
+  }
+]
