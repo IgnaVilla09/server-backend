@@ -34,5 +34,293 @@
     "thumbnail": "./img/cafecolombia.jpg",
     "code": 98465412134598,
     "stock": 50
+  },
+  {
+    "id": 5,
+    "title": "Arroz",
+    "description": "Paquete de arroz blanco de grano largo",
+    "price": 1200,
+    "thumbnail": "../db/assets/img5",
+    "code": 987654321,
+    "stock": 80
+  },
+  {
+    "id": 6,
+    "title": "Aceite de oliva",
+    "description": "Aceite de oliva virgen extra",
+    "price": 3500,
+    "thumbnail": "../db/assets/img6",
+    "code": 123456789,
+    "stock": 45
+  },
+  {
+    "id": 7,
+    "title": "Leche",
+    "description": "Leche entera pasteurizada",
+    "price": 1800,
+    "thumbnail": "../db/assets/img7",
+    "code": 987654123,
+    "stock": 60
+  },
+  {
+    "id": 8,
+    "title": "Pan",
+    "description": "Pan fresco de trigo integral",
+    "price": 1500,
+    "thumbnail": "../db/assets/img8",
+    "code": 456789123,
+    "stock": 75
+  },
+  {
+    "id": 9,
+    "title": "Huevos",
+    "description": "Docena de huevos orgánicos",
+    "price": 2500,
+    "thumbnail": "../db/assets/img9",
+    "code": 789123456,
+    "stock": 40
+  },
+  {
+    "id": 10,
+    "title": "Queso",
+    "description": "Queso cheddar madurado",
+    "price": 2800,
+    "thumbnail": "../db/assets/img10",
+    "code": 159753468,
+    "stock": 55
+  },
+  {
+    "id": 11,
+    "title": "Pasta",
+    "description": "Paquete de pasta de trigo duro",
+    "price": 1100,
+    "thumbnail": "../db/assets/img11",
+    "code": 357159357,
+    "stock": 65
+  },
+  {
+    "id": 12,
+    "title": "Mantequilla",
+    "description": "Mantequilla de vaca sin sal",
+    "price": 2000,
+    "thumbnail": "../db/assets/img12",
+    "code": 963258741,
+    "stock": 30
+  },
+  {
+    "id": 13,
+    "title": "Aceitunas",
+    "description": "Aceitunas verdes sin hueso",
+    "price": 1700,
+    "thumbnail": "../db/assets/img13",
+    "code": 147258369,
+    "stock": 85
+  },
+  {
+    "id": 14,
+    "title": "Jugo de naranja",
+    "description": "Jugo de naranja recién exprimido",
+    "price": 2200,
+    "thumbnail": "../db/assets/img14",
+    "code": 258369147,
+    "stock": 70
+  },
+  {
+    "id": 15,
+    "title": "Tomates en lata",
+    "description": "Lata de tomates pelados y triturados",
+    "price": 900,
+    "thumbnail": "../db/assets/img15",
+    "code": 369147258,
+    "stock": 95
+  },
+  {
+    "id": 16,
+    "title": "Cereal",
+    "description": "Caja de cereal de maíz con miel",
+    "price": 1600,
+    "thumbnail": "../db/assets/img16",
+    "code": 147258369,
+    "stock": 50
+  },
+  {
+    "id": 17,
+    "title": "Manzanas",
+    "description": "Kilo de manzanas rojas",
+    "price": 1800,
+    "thumbnail": "../db/assets/img17",
+    "code": 258369147,
+    "stock": 60
+  },
+  {
+    "id": 18,
+    "title": "Cerveza",
+    "description": "Six pack de cerveza artesanal",
+    "price": 3000,
+    "thumbnail": "../db/assets/img18",
+    "code": 369147258,
+    "stock": 25
+  },
+  {
+    "id": 19,
+    "title": "Papas",
+    "description": "Kilo de papas blancas",
+    "price": 1100,
+    "thumbnail": "../db/assets/img19",
+    "code": 147258369,
+    "stock": 75
+  },
+  {
+    "id": 20,
+    "title": "Mermelada",
+    "description": "Frascos de mermelada de frutas variadas",
+    "price": 2500,
+    "thumbnail": "../db/assets/img20",
+    "code": 258369147,
+    "stock": 40
+  },
+  {
+    "id": 21,
+    "title": "Pimienta negra",
+    "description": "Molino de pimienta negra en grano",
+    "price": 1200,
+    "thumbnail": "../db/assets/img21",
+    "code": 369147258,
+    "stock": 90
+  },
+  {
+    "id": 22,
+    "title": "Salsa de tomate",
+    "description": "Frascos de salsa de tomate casera",
+    "price": 1400,
+    "thumbnail": "../db/assets/img22",
+    "code": 147258369,
+    "stock": 55
+  },
+  {
+    "id": 23,
+    "title": "Atún en lata",
+    "description": "Lata de atún en aceite de oliva",
+    "price": 2700,
+    "thumbnail": "../db/assets/img23",
+    "code": 258369147,
+    "stock": 35
+  },
+  {
+    "id": 24,
+    "title": "Pechuga de pollo",
+    "description": "Kilo de pechuga de pollo sin hueso",
+    "price": 4000,
+    "thumbnail": "../db/assets/img24",
+    "code": 369147258,
+    "stock": 20
+  },
+  {
+    "id": 25,
+    "title": "Cebollas",
+    "description": "Kilo de cebollas blancas",
+    "price": 800,
+    "thumbnail": "../db/assets/img25",
+    "code": 147258369,
+    "stock": 65
+  },
+  {
+    "id": 26,
+    "title": "Vino tinto",
+    "description": "Botella de vino tinto reserva",
+    "price": 5000,
+    "thumbnail": "../db/assets/img26",
+    "code": 258369147,
+    "stock": 30
+  },
+  {
+    "id": 27,
+    "title": "Pasta dental",
+    "description": "Pasta dental con flúor",
+    "price": 1200,
+    "thumbnail": "../db/assets/img27",
+    "code": 369147258,
+    "stock": 80
+  },
+  {
+    "id": 28,
+    "title": "Papel higiénico",
+    "description": "Paquete de rollos de papel higiénico",
+    "price": 1800,
+    "thumbnail": "../db/assets/img28",
+    "code": 147258369,
+    "stock": 50
+  },
+  {
+    "id": 29,
+    "title": "Café instantáneo",
+    "description": "Frascos de café instantáneo",
+    "price": 2800,
+    "thumbnail": "../db/assets/img29",
+    "code": 258369147,
+    "stock": 40
+  },
+  {
+    "id": 30,
+    "title": "Chocolate",
+    "description": "Tableta de chocolate con leche",
+    "price": 1500,
+    "thumbnail": "../db/assets/img30",
+    "code": 369147258,
+    "stock": 60
+  },
+  {
+    "id": 31,
+    "title": "Papel de aluminio",
+    "description": "Rollo de papel de aluminio",
+    "price": 1600,
+    "thumbnail": "../db/assets/img31",
+    "code": 147258369,
+    "stock": 45
+  },
+  {
+    "id": 32,
+    "title": "Mascarillas",
+    "description": "Paquete de mascarillas desechables",
+    "price": 2000,
+    "thumbnail": "../db/assets/img32",
+    "code": 258369147,
+    "stock": 90
+  },
+  {
+    "id": 33,
+    "title": "Toallas de papel",
+    "description": "Rollo de toallas de papel absorbente",
+    "price": 1500,
+    "thumbnail": "../db/assets/img33",
+    "code": 369147258,
+    "stock": 70
+  },
+  {
+    "id": 34,
+    "title": "Limones",
+    "description": "Kilo de limones amarillos",
+    "price": 1000,
+    "thumbnail": "../db/assets/img34",
+    "code": 147258369,
+    "stock": 55
+  },
+  {
+    "id": 35,
+    "title": "Sal",
+    "description": "Bolsa de sal de mar fina",
+    "price": 800,
+    "thumbnail": "../db/assets/img35",
+    "code": 258369147,
+    "stock": 85
+  },
+  {
+    "id": 36,
+    "title": "Pimienta roja",
+    "description": "Molino de pimienta roja en grano",
+    "price": 1300,
+    "thumbnail": "../db/assets/img36",
+    "code": 369147258,
+    "stock": 65
   }
 ]

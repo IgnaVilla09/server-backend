@@ -11,6 +11,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/products", async (req, res) => {
+  let { limit, skip } = req.query;
+
   let products;
   try {
     products = await pm.getProducts();
@@ -18,7 +20,38 @@ app.get("/products", async (req, res) => {
     console.log(error.message);
   }
 
+  if (skip && skip > 0) {
+    products = products.slice(skip);
+  }
+
+  if (limit && limit > 0) {
+    products = products.slice(0, limit);
+  }
+
   res.json(products);
+});
+
+app.get("/products/:id", async (req, res, next) => {
+  try {
+    const productId = req.params.id;
+    const product = await pm.getProductById(productId);
+    if (product) {
+      const { title, description, price, code, stock } = product;
+      const htmlRes = `
+          <h2>${title}</h2>
+          <h3>$ ${price}</h3>
+          <h5>Codigo: ${code}</h5>
+          <h5>Unidades disponibles: ${stock}</h5>
+          <p>${description}</p>
+        `;
+      res.send(htmlRes);
+    } else {
+      const htmlResError = `<h2>Producto no encontrado</h2>`;
+      res.send(htmlResError);
+    }
+  } catch (error) {
+    next(error);
+  }
 });
 
 app.listen(PORT, () => {

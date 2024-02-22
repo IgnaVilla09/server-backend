@@ -15,12 +15,17 @@ class ProductManager {
     }
   }
 
+  async getProductById(productId) {
+    const products = await this.getProducts();
+    return products.find((product) => product.id === parseInt(productId));
+  }
+
   async addProducts(title, description, price, thumbnail, code, stock) {
     let products = await this.getProducts();
 
     let id = 1;
     if (products.length > 0) {
-      id = Math.max(...products.map((products) => products.id)) + 1;
+      id = Math.max(...products.map((product) => product.id)) + 1;
     }
 
     products.push({
@@ -37,18 +42,18 @@ class ProductManager {
   }
 }
 
-const funcion1 = async () => {
-  let pm = new ProductManager("./data/products.json");
-  await pm.addProducts(
-    "Cafe",
-    "Cafe Tostado molienda media-fina para Moka italiana o Melita",
-    8600,
-    "./img/cafecolombia.jpg",
-    98465412134598,
-    50
-  );
-};
-
-funcion1();
-
 module.exports = ProductManager;
+
+//const AgregandoProducto = async () => {
+//let pm = new ProductManager("./data/products.json");
+//await pm.addProducts(
+//"Cafe",
+//"Cafe Tostado molienda media-fina para Moka italiana o Melita",
+//8600,
+//"./img/cafecolombia.jpg",
+//98465412134598,
+//50
+//);
+//};
+
+//AgregandoProducto();
