@@ -54,6 +54,11 @@ app.get("/products/:id", async (req, res, next) => {
   }
 });
 
+app.get("*", (req, res) => {
+  const NotFoundHTML = `<h1>Error 404 - Not Found</h1>`;
+  res.send(NotFoundHTML);
+});
+
 app.listen(PORT, () => {
   console.log(`Server ONLINE en puerto ${PORT}`);
 });
